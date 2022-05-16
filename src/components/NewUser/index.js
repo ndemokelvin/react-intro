@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 
+//useState
+// return [value, settter]
+// 1. value 2. Setter
+
 const CreateUser = (props) => {
   const { setUsers } = props;
   const [name, setName] = useState("");
